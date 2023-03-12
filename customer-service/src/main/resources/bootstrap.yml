@@ -1,0 +1,9 @@
+server:
+  port: 2323
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: customerRepo
+

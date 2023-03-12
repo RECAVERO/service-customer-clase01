@@ -1,10 +1,11 @@
 package com.example._2Task.interfaces;
 
-import com.example._4Infraestructure.document.Customer;
+import com.example._3Domain.models.CustomerDto;
 
 public interface CustomerService {
-    Iterable<Customer> getListCustomer();
-    Customer addCustomer(Customer customer);
-    Customer updateCustomer(Customer customer);
-    void deleteCustomer(Customer customer);
+    Iterable<CustomerDto> getListCustomer();
+    CustomerDto addCustomer(CustomerDto customerDto);
+    CustomerDto updateCustomer(CustomerDto customerDto);
+
+    void deleteCustomer(CustomerDto customerDto);
 }
